@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+}
+.menu{
+    width: 25%;
+    height: 900px;
+    position:fixed;
+    background-color: lightgray;
+}
+.info{
+    width: 75%;
+    height: 700px;
+}
+.logo{
+    text-align: center;
+    margin-top: 20%;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+}
+.nav{
+    width:100%;
+    text-align: center;
+    margin-top: 40%;
+}
+.nav-ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.nav-ul li a{
+    color:gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-ul li a:hover{
+    color:black;
+    height: 10px;
+    width: 10px;
+    transition: 0.5s;
+}
+.ayri{
+    color:black !important;
+    text-decoration: underline !important;
+}
+.menu p{
+    text-align: center;
+}
+.loremm{
+    margin-top: 30%;
+    color:gray;
+}
+.lorem{
+    color:red;
+}
+.info img{
+    height: 180px;
+    width: 180px;
+    margin-left: 75%;
+    margin-top: 10%;
+    border-radius: 360px;
+}
+.melumat{
+    text-align: center;
+    margin-left: 51%;
+    width: 700px;
+    height: 400px;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.melumat h1{
+    margin-top: 20px;
+}
+.melumat p{
+    margin-top: 25px;
+    color:gray;
+}
+.melumat h3{
+    color: gray;
+}
+.son{
+    margin-left: 65%;
+    list-style: none;
+    text-align: center;
+}
+.son li a{
+    color: gray;
+    font-size: 20px;
+}
+.son li a:hover{
+    color:black;
+    transition: 0.5s;
+}
+.medya{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    background-color: none;
+}
+.medya div{
+    display: inline;
+    margin-left: 10px;
+}
+.container {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 68%;
+    background-color: lightblue;
+}
+.ekran {
+    width: 100%;
+    height:50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: right;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color:#fff;
+    font-size: 30px;
+  }
+button {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color:aqua;
+}
